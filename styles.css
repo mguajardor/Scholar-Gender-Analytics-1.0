@@ -1,0 +1,152 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  width: 340px;
+  margin: 0;
+  padding: 12px;
+  background: #fafafa;
+  color: #222;
+}
+
+header {
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 11px;
+  color: #666;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.metricas {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 11px;
+  color: #666;
+}
+
+.valor {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.morado {
+  color: #7b4bb7;
+}
+
+/* ---------- GRÁFICO ---------- */
+.grafico {
+  margin-top: 6px;
+}
+
+.barra {
+  width: 100%;
+  height: 14px;
+  background: #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#barra-mujeres {
+  height: 100%;
+  width: 0%;
+  background: #7b4bb7;
+  transition: width 0.5s ease;
+}
+
+.leyenda {
+  font-size: 11px;
+  margin-top: 4px;
+  color: #555;
+}
+
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.dot.morado {
+  background: #7b4bb7;
+}
+
+.dot.gris {
+  background: #bbb;
+}
+
+/* ---------- TABLA ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 6px;
+}
+
+th {
+  background: #f2f2f2;
+  text-align: left;
+}
+
+/* ---------- ARTÍCULOS ---------- */
+#articulos strong {
+  display: block;
+  margin-top: 6px;
+}
+
+#articulos ul {
+  padding-left: 18px;
+  margin: 4px 0;
+}
+
+footer {
+  font-size: 10px;
+  color: #666;
+  text-align: center;
+}
+
+select {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+}
+
+.grafico {
+  margin: 10px 0;
+}
+
+.barra {
+  width: 100%;
+  height: 16px;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#barra-mujeres {
+  height: 100%;
+  width: 0%;
+  background-color: #7b4bb7; /* morado */
+  transition: width 0.4s ease;
+}

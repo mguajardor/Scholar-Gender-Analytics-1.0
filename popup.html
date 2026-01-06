@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gender Scholar</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+  <header>
+    <h1>Scholar Gender Analytics</h1>
+    <p class="subtitle">Participación de mujeres en publicaciones científicas</p>
+  </header>
+
+  <!-- RESUMEN -->
+  <section class="card">
+    <div class="metricas">
+      <div>
+        <span class="label">Total de autores</span>
+        <span id="total" class="valor">–</span>
+      </div>
+      <div>
+        <span class="label">Autoras</span>
+        <span id="porcentaje" class="valor morado">–</span>
+      </div>
+    </div>
+
+    <div id="grafico-porcentaje"></div>
+
+    <section class="card">
+      <label for="filtro-articulo"><strong>Filtrar por artículo</strong></label>
+      <select id="filtro-articulo">
+        <option value="__global__">Todos los artículos</option>
+      </select>
+    </section>
+
+    <!-- GRÁFICO HTML -->
+    <!--<div class="grafico">
+      <div class="barra">
+        <div id="barra-mujeres"></div>
+      </div>
+      <div class="leyenda">
+        <span class="dot morado"></span> Mujeres
+        <span class="dot gris"></span> Otros
+      </div>
+    </div>
+  </section>-->
+
+  <!-- TABLA -->
+  <section class="card">
+    <h2>Confianza de Predicion por Nombre</h2>
+
+    <table id="tabla-confianza">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Género</th>
+          <th>Confianza</th>
+        </tr>
+      </thead>
+      <tbody id="tabla"></tbody>
+    </table>
+  </section>
+
+  <!-- ARTÍCULOS -->
+  <!--<section class="card">
+    <h2>Artículos analizados</h2>
+    <div id="articulos"></div>
+  </section>-->
+
+  <script src="popup.js"></script>
+</body>
+</html>
