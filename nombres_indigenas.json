@@ -1,0 +1,86 @@
+{
+  "xochitl": {
+    "genero": "Mujer",
+    "lengua": "Náhuatl",
+    "significado": "Flor",
+    "confianza": 0.85
+  },
+  "citlali": {
+    "genero": "Mujer",
+    "lengua": "Náhuatl",
+    "significado": "Estrella",
+    "confianza": 0.85
+  },
+  "itzel": {
+    "genero": "Mujer",
+    "lengua": "Maya",
+    "significado": "Luz de luna",
+    "confianza": 0.85
+  },
+  "ixchel": {
+    "genero": "Mujer",
+    "lengua": "Maya",
+    "significado": "Diosa de la luna",
+    "confianza": 0.85
+  },
+  "nayeli": {
+    "genero": "Mujer",
+    "lengua": "Zapoteco",
+    "significado": "Te quiero",
+    "confianza": 0.80
+  },
+  "yaretzi": {
+    "genero": "Mujer",
+    "lengua": "Náhuatl",
+    "significado": "La que siempre será amada",
+    "confianza": 0.85
+  },
+  "tlalli": {
+    "genero": "Mujer",
+    "lengua": "Náhuatl",
+    "significado": "Tierra",
+    "confianza": 0.80
+  },
+  "cuauhtemoc": {
+    "genero": "Hombre",
+    "lengua": "Náhuatl",
+    "significado": "Águila que desciende",
+    "confianza": 0.85
+  },
+  "tlaloc": {
+    "genero": "Hombre",
+    "lengua": "Náhuatl",
+    "significado": "Dios de la lluvia",
+    "confianza": 0.85
+  },
+  "tenoch": {
+    "genero": "Hombre",
+    "lengua": "Náhuatl",
+    "significado": "Nopal",
+    "confianza": 0.85
+  },
+  "nahuel": {
+    "genero": "Hombre",
+    "lengua": "Mapuche",
+    "significado": "Jaguar",
+    "confianza": 0.80
+  },
+  "atziri": {
+    "genero": "Mujer",
+    "lengua": "Purépecha",
+    "significado": "Maíz",
+    "confianza": 0.80
+  },
+  "erandi": {
+    "genero": "Mujer",
+    "lengua": "Purépecha",
+    "significado": "Amanecer",
+    "confianza": 0.80
+  },
+  "uay": {
+    "genero": "Hombre",
+    "lengua": "Maya",
+    "significado": "Espíritu protector",
+    "confianza": 0.75
+  }
+}
